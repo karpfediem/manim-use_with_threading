@@ -19,6 +19,13 @@ if threading.current_thread().name != "MainThread":
 
 Since the manim renderer has no configured animations (renderer.num_plays stays 0) it defaults to render the last frame as a PNG output.
 
+
+# Install
+```bash
+poetry install
+```
+
+
 # Run tests
 ```bash
 pytest
